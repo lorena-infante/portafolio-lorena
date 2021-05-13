@@ -1,0 +1,15 @@
+:root{
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #5e60ceff 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #5390d9ff 0%, #4ea8deff 100%);
+}
+
+body{
+    background:var(--gradient);
+    /*esto hace que el gradiente no se corte a lo largo de la pantalla*/
+    min-block-size: 100vh;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
