@@ -1,11 +1,34 @@
 :root{
+    --fontBase:'Poppins', sans-serif;
+    /*font-weight font-size/line-height font-family*/
+    --headline1: bold 95px/ 153.71px var(--fontBase);
+    --headline2: bold 59px/ 95.46px var(--fontBase);
+    --headline3: bold 48px/ 77.66px var(--fontBase);
+    --headline4: bold 34px/ 55.01px var(--fontBase);
+    --headline5: bold 24px/ 38.83px var(--fontBase);
+    --body1: normal 16px/ 25.89px var(--fontBase);
+    --body2: normal 14px/ 22.65px var(--fontBase);
+    --button: bold 14px/ 22.65px var(--fontBase);
+    --caption: normal 12px/ 19.42px var(--fontBase);
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #5e60ceff 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #5390d9ff 0%, #4ea8deff 100%);
+    --purple:#7400B8;
+    --frenchViolet:#6930C3;
+    --slateBlue:#5E60CE;
+    --tuftsBlue:#5390D9;
+    --blueJeans:#4EA8DE;
+    --vividSkyBlue:#48BFE3;
+    --skyBlueCrayola: #56CFE1;
+    --mediumTurquoise:#64DFDF;
+    --turquoise: #72EFDD;
+    --aquaMarine:#80FFDB;
 }
 
 body{
     background:var(--gradient);
     /*esto hace que el gradiente no se corte a lo largo de la pantalla*/
     min-block-size: 100vh;
+    font:var(--body1);
+    color:var(--purple);
 }
 
 
