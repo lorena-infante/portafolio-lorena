@@ -1,6 +1,7 @@
 @import "./button.css";
 @import "./button-icon.css";
 @import "./header.css";
+@import "./hero.css";
 
 :root{
     --fontBase:'Poppins', sans-serif;
@@ -33,6 +34,7 @@ body{
     /*esto hace que el gradiente no se corte a lo largo de la pantalla*/
     min-block-size: 100vh;
     font:var(--body1);   
+    color:var(--purple);
 }
 
 
