@@ -5,6 +5,9 @@
 .hero-image{
     text-align: center;
 }
+.hero-image img{
+    border-radius: 130px;
+}
 .hero-description{
     display: flex;
     flex-direction: column;
