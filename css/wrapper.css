@@ -1,4 +1,5 @@
 .wrapper{
+    /*le da un padding de fronteras al contenido*/
     max-inline-size: 1158px;
     padding-inline-end: 16px;
     padding-inline-start: 16px;

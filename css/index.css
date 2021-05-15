@@ -27,7 +27,9 @@
     --mediumTurquoise:#64DFDF;
     --turquoise: #72EFDD;
     --aquaMarine:#80FFDB;
+    --blue:#310a90;
     --white:#FFFFFF;
+    --black:#000000;
 }
 
 body{
@@ -35,7 +37,7 @@ body{
     /*esto hace que el gradiente no se corte a lo largo de la pantalla*/
     min-block-size: 100vh;
     font:var(--body1);   
-    color:var(--purple);
+    color:var(--blue);
 }
 
 
