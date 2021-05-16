@@ -4,10 +4,16 @@
 
 .hero-image{
     text-align: center;
+    /*background vector*/
+
+    /*width: 328px;
+    height:330px;
+    border-radius:15px;
+    background-color:ahi vemos;*/
 }
-.hero-image img{
+/*.hero-image img{
     border-radius: 130px;
-}
+}*/
 .hero-description{
     display: flex;
     flex-direction: column;
@@ -29,3 +35,27 @@
     padding-bottom: 24px;
 }
 
+@media screen and (min-width:768px) {
+    .hero{
+        border:1px solid red;
+        display: flex;
+        gap:32px;
+    }
+    .hero-description{
+        /*Cambia el orden en el que se muestran los contenidos*/
+        order:1;
+        /*añade un máx. de línea en el párrafo*/
+        max-inline-size: 450px;
+    }
+    .hero-image {
+        order:2;
+        text-align: end;
+        /*para que la img tome TODO el espacio disponible*/
+        flex:1;
+    }
+    .hero-image img {
+       inline-size: 250px;/*height*/
+       block-size: 330px; /*width*/
+       flex:1;
+    }
+}
