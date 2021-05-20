@@ -1,0 +1,32 @@
+.about-container{
+    border:1px solid red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.about-container p{
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 400;
+    text-align: center; 
+    padding-bottom:24px;
+
+}
+.bold{
+    padding-top:24px;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.arrow a{
+    padding-top: 24px;
+
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+}
