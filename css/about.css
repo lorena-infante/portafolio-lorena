@@ -1,5 +1,4 @@
 .about-container{
-    border:1px solid red;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -46,8 +45,6 @@
     }
     
     .about-container p{
-       
-        
         font-size: 24px;
         line-height: 39px;
         font-weight: 400;
