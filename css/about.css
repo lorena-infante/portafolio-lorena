@@ -30,3 +30,41 @@
     display: flex;
     justify-content: center;
 }
+
+/*MQ for tablet*/
+@media screen and (min-width:768px) {
+    .about-container{
+        padding: 100px 133px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .about-container h1{
+        width:900px;
+        height:111px;
+    }
+    
+    .about-container p{
+       
+        
+        font-size: 24px;
+        line-height: 39px;
+        font-weight: 400;
+        text-align: center; 
+        padding-bottom:24px;
+    
+    }
+
+}
+
+/*for desktop*/
+@media screen and (min-width:1024px) {
+    .about-container p{
+       inline-size: 900px;/*height*/
+       block-size: 39px; /*width*/
+       flex:1;
+
+    }
+    
+}
