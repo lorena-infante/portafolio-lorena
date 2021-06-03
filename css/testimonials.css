@@ -1,7 +1,7 @@
 .testimonial-container{
-    /*padding: bottom left right top*/
-    border:1px solid blue;
-    padding: 80px 16px 16px 40px;
+    /*padding: top right bottom left*/
+    /*border:1px solid blue;*/
+    padding: 40px 16px 80px 16px;
 }
 
 .box-content{
@@ -34,4 +34,52 @@
 .user-descript{
    /* padding:24px 0px 0px 0px;*/
     font:var(--caption);
+}
+
+/*desktop*/
+@media screen and (min-width:1024px) {
+    .box-content{
+        border: 3.98px solid;
+        /*revisar qué pasa con el border que no aparece el gradiente*/
+        border-image-source: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%);
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.2);
+        padding:80px;
+        
+    }
+    .user-pic img{
+        width:80px;
+        height:80px;
+        
+    }
+    .user-pic{
+        /*padding-left: 446px;
+        padding-right: 446px;*/
+        display: flex;
+        justify-content: center;
+
+    }
+    /*
+    .testimonial-container{
+        padding: 80px 117px 80px 117px;
+    }
+    */
+
+    .user-comment{
+        text-align: center;
+        font-family: 'Oxygen',sans-serif;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 55px;
+    }
+    .user-descript{
+        text-align: center;
+        font: var(--headline5);
+        color: var(--purple);
+        opacity: 0.5;
+        font-size: 24px;
+    }
+
+
+
 }
