@@ -3,9 +3,9 @@
     
 }
 
-.img-project img{
-    width:328px;
-    height:197px; 
+.img-project{
+    display: flex;
+    flex-direction: column;
 }
 .project-descript{
     display: flex;
@@ -33,10 +33,10 @@
     .projects{
         display: flex;
         align-items: center;
-    }
+    }/*
     .img-project img{
         width:652px;
         height:392px; 
-    }
+    }*/
 
 }
