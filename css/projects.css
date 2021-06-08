@@ -1,5 +1,4 @@
 .projects{
-    border:1px solid red;
     
 }
 
@@ -38,5 +37,15 @@
         width:652px;
         height:392px; 
     }*/
+    .project-descript{
+        /*para que la img ocupe solo el 50% del flexbox*/
+        flex:1;
+    }
+/*Select all odd elements*/
+    .projects:nth-of-type(odd) .img-project{
+        order:2;
+        flex:1;
+        align-items: center;
+}
 
 }
