@@ -1,10 +1,17 @@
 .projects{
+    padding-block-start:40px;
+    padding-block-end:40px;
     
 }
 
 .img-project{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.img-project img{
+    /*to resize images when are in mobile (take the whole space)*/
+    max-inline-size: 100%;
 }
 .project-descript{
     display: flex;
@@ -24,14 +31,16 @@
     /*para que se alinee únicamente este elemento*/
     align-self: flex-start;
     text-decoration: none;
-    /*para que la sombra no se salga del wrapper, se le sumó lo que la sombra le resta*/
-    margin-inline-start: 4px;
+    /*para que la sombra no se salga del wrapper, se le sumó lo que la sombra le resta
+    margin-inline-start: 4px;*/
 }
 
 @media screen and (min-width:768px) {
     .projects{
         display: flex;
         align-items: center;
+        padding-block-start:80px;
+        padding-block-end:80px;
     }/*
     .img-project img{
         width:652px;

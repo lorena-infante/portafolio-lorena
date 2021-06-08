@@ -23,8 +23,9 @@
 }
 
 .user-pic{
-    padding-left: 132px;
-    padding-right: 132px;
+/*    padding-left: 132px;
+    padding-right: 132px;*/
+    text-align: center;
 }
 
 .user-comment{

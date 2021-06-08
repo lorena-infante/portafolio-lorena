@@ -60,9 +60,11 @@
 @media screen and (min-width:1024px) {
     .hero-image img {
         /*Esta foto hay que cambiarla, pero las medidas que aquí van son las oficiales*/
-       inline-size: 500px;/*height*/
-       block-size: 504px; /*width*/
+      /* inline-size: 500px;/*height
+       block-size: 504px; width*/
        flex:1;
+       max-inline-size: 100%;
+       block-size: auto;
     }
 }/*End MQ 1024*/
 
