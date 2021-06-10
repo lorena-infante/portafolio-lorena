@@ -7,6 +7,8 @@
 @import "./about.css";
 @import "./testimonials.css";
 @import "./projects.css";
+@import "./social.css";
+@import "./footer.css";
 
 :root{
     --fontBase:'Poppins', sans-serif;
@@ -42,6 +44,7 @@ body{
     min-block-size: 100vh;
     font:var(--body1);   
     color:var(--blue);
+    margin:0px;
 }
 
 
