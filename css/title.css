@@ -1,0 +1,16 @@
+.title{
+    background:var(--frenchViolet);
+    color:var(--white);
+    font:var(--headline5);
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    padding-inline-end: 8px;
+    padding-inline-start: 8px;
+    /*box-shadow: Xpx Ypx blur color*/
+    box-shadow: -4px 4px 0 var(--white);
+    /*para que se alinee únicamente este elemento*/
+    align-self: flex-start;
+    text-decoration: none;
+    /*para que la sombra no se salga del wrapper, se le sumó lo que la sombra le resta
+    margin-inline-start: 4px;*/
+}
