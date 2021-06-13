@@ -12,25 +12,30 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-<div class="wrapper">
     <header class="header">
-        <img src="./images/logo_1-01.png" width="100" height="55"alt="Logo Lorena Infante">
-
-    <nav aria-label="main-navigation" class="menu"> 
-        <ul>
-            <li>
-                <a class="is-active" href="#main">Hola</a>
-            </li>
-            <li>
-                <a href="#projects">Proyectos</a>
-            </li>
-            <li>
-                <a href="#contact">Hablemos</a>
-            </li>
-        </ul>
-    </nav>
-    <button class="button">Curriculum</button>
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo_1-01.png" width="100" height="55"alt="Logo Lorena Infante">
+        
+            <nav aria-label="main-navigation" class="menu"> 
+                <ul>
+                    <li>
+                        <a class="is-active" href="#main">Hola</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Hablemos</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="button">Curriculum</button>
+            </div>
+        </div>
     </header>
+<div class="wrapper">
+    
     <section aria-label="main" class="hero" id="main">
         <div class="hero-image">
             <img src="./images/lorena.png" width="" height="330px" alt="Foto de Lorena sonriendo">
@@ -51,7 +56,7 @@
 
         </div><!--Fin hero--> 
     </section> <!--fin hero-->
-    <section class="about">
+    <section class="about" id="projects">
         <div class="about-container">
             <p>
                 A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
@@ -149,7 +154,7 @@
         </div><!--Fin testimonial-container3-->
     </section><!--Fin section testimonials3-->
     
-    <form action="" method="POST" class="form">
+    <form action="" method="POST" class="form" id="contact">
         <div class="form-content">
             
             <h2 class="title">Hablemos</h2>
