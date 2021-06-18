@@ -17,7 +17,7 @@
 }
 
 .menu ul a.is-active{
-    color:var(--purple);
+    color:var(--turquoise);
 }
 
 @media screen and (min-width:768px) {
