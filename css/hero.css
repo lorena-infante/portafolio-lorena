@@ -20,6 +20,34 @@
     gap: 16px;
     
 }
+/*.hero-container{
+    height: 100vh;
+    display: grid;
+    place-items:center;
+
+}*/
+
+.typing-effect{
+/*el width es la cantidad de caracteres de la palabra/frase a animar. Contando espacios*/
+    width: 9ch;
+    font-family: var(--headline5);
+    animation: typing 1s,step-end;
+    white-space: nowrap;
+    overflow: hidden; 
+   /* border-right: 3px solid;*/
+}
+
+@keyframes typing{
+    from{
+        width:0;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
 
 .hero h1{
     margin:0;
