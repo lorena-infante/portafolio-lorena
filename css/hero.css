@@ -29,7 +29,7 @@
 
 .typing-effect{
 /*el width es la cantidad de caracteres de la palabra/frase a animar. Contando espacios*/
-    width: 9ch;
+    width: 10ch;
     font-family: var(--headline5);
     animation: typing 1s,step-end;
     white-space: nowrap;
