@@ -188,9 +188,9 @@
         
             <div class="social">
                 <a class="button-icon" href="tel:+56933530976"><img src="./icons/icon-phone.svg" alt="ícono de un teléfono"></a>
-                <a class="button-icon" href=""><img src="./icons/icon-important_mail.svg" alt="ícono de un sobre de correo"></a>
-                <a class="button-icon" href=""><img src="./icons/icon-instagram.svg" alt="ícono de instagram en color morado"></a>
-                <a class="button-icon" href=""><img src="./icons/icon-twitter_squared.svg" alt="ícono de twitter"></a>
+                <a class="button-icon" href="mailto: m.lorenainfanter@gmail.com?Subject=Información%20de%20contacto"><img src="./icons/icon-important_mail.svg" alt="ícono de un sobre de correo"></a>
+                <a class="button-icon" target="_blank" href="https://www.instagram.com/lorenainfanteweb/"><img src="./icons/icon-instagram.svg" alt="ícono de instagram en color morado"></a>
+                <a class="button-icon" href="https://twitter.com/Lorena_InfanteR" target="_blank"><img src="./icons/icon-twitter_squared.svg" alt="ícono de twitter"></a>
             </div>
             <div class="footer-copyright">
         
@@ -202,6 +202,32 @@
 
     
 </div> <!--fin wrapper-->
+<!--script-->
+<script>
+    const $form = document.querySelector('#contact');
 
+    $form.addEventListener('submit',handleSubmit)
+
+    async function handleSubmit(event){
+        //esto previene que al recargar la página se quede almacenada la info anterior
+        event.preventDefault();
+        const form= new FormData(this);
+        //fetch trae la url a la que le quiero enviar la info(primer parámetro). El segundo parámetro son las llaves del método post
+        const response = await fetch(this.action,{
+            method:this.method,
+            body: form,
+            headers:{
+                'Accept':'application/json'
+            }
+        });
+        if(response.ok){
+            //limpiar el form
+            this.reset();
+            alert('Gracias por contactarme. Pronto recibirá una respuesta de mi parte.');
+
+        }
+
+    }
+</script>
 </body>
 </html>
