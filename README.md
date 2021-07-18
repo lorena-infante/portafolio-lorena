@@ -10,11 +10,11 @@ Un portafolio con distintas secciones como descripción, proyectos realizados, t
 
 ## Desktop
 
-<img width="400px"  src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/portafolio-jaume/jaume-desktop.png?raw=true" />
+<img width="400px"  src="https://lorena-infante.github.io/portafolio-lorena/images/lorena-infante-desktop.JPG" />
 
 ## Mobile
 
-<img width="200px" src="https://github.com/no-te-rindas/imagenes/blob/main/Readmes/portafolio-jaume/jaume-mobile.png?raw=true" />
+<img width="200px" src="https://lorena-infante.github.io/portafolio-lorena/images/lorena-infante-mobile.JPG" />
 
 ## Créditos
 
